@@ -2,7 +2,7 @@ const square = document.querySelectorAll('.square');
 const mole = document.querySelectorAll('.mole');
 const timeLeft = document.querySelector('#time-left');
 let score = document.querySelector('#score');
-
+let timerId;
 let result = 0;
 let currentTime = timeLeft.textContent;
 
@@ -37,6 +37,7 @@ function countDown() {
     if(currentTime === 0) {
         clearInterval(timerId)
         alert('GAME OVER! Your final score is' + result)
+        currentTime = 60;
     }
 }
 
