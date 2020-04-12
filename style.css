@@ -1,0 +1,41 @@
+html, body {
+    background: rgb(246, 243, 248);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background: rgb(6, 231, 6);
+}
+
+#statistics-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    height: 400àpx;
+}
+
+.mole {
+    background-image: url(mole.jpeg);
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
